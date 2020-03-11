@@ -137,7 +137,7 @@ silakan pilih:
 ''')
 
 
-bot = telepot.Bot('946120811:AAGzJvD0UZyvyF3M2NdRnTy-z24CyGwq_2M')
+bot = telepot.Bot('token')
 bot.message_loop(handle)
 while 1:
     time.sleep(10)
